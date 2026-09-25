@@ -1,0 +1,239 @@
+body{
+    border: 15px solid black;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   
+}
+.h1{
+    background-color: rgb(103, 101, 101);
+    color: white;
+    
+}
+.h1 h1{
+    text-align: center;
+    margin: 0;
+}
+.li{
+    font-size: larger;
+    margin: 20px;
+}
+.box1{
+    height: 300px;
+    background-color: rgb(248, 237, 16);
+    margin-left: 20px;
+}
+.main{
+    color: black;
+    display: flex;
+   justify-content: flex-start;
+}
+.main div{
+    color: black;
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.b1{
+    color: black;
+    background-color: bisque;
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+}
+.h2{
+    background-color: rgb(103, 101, 101);
+    color: white;
+    
+}
+.h2 h1{
+    text-align: center;
+    margin: 20px;
+}
+.main1 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main1{
+    display: flex;
+    justify-content:flex-end;
+    row-gap: 50px;
+}
+.main3 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main3{
+    display: flex;
+    justify-content:center;
+}
+.main4 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main4{
+    display: flex;
+    justify-content:space-between;
+}
+.main5 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main5{
+    display: flex;
+    justify-content:space-around;
+}
+.main6 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main6{
+    display: flex;
+    justify-content:space-evenly;
+}
+.main7 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main7{
+    display: flex;
+    align-items: flex-start;
+}
+.main8 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main8{
+  display: flex;
+    height: 300px;
+   align-content:end;
+    align-items: flex-end;  
+}
+.main9 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main9{
+   display: flex;
+    height: 300px;
+   align-content: center;
+    align-items: center;      
+
+}
+.main10 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main10{
+   display: flex;
+   align-content:stretch;
+}
+.main11 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main11{
+   display: flex;
+   flex-wrap: wrap;
+   row-gap: 50px;
+   align-content:space-between;
+}
+.main12 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main12{
+   display: flex;
+   flex-wrap: wrap;
+   align-content:space-around;
+   align-items:flex-start;
+   height: 300px;
+   
+}
+.main13 div{
+    
+    width: 90px;
+    height: 100px;
+    background-color: bisque;
+    align-items: center;
+    padding: 10px;
+    color: black;
+}
+
+.main13{
+   display: flex;
+   flex-wrap: wrap;
+   align-content:space-evenly;
+   align-items:flex-start;
+   height: 300px;
+   
+}

@@ -1,0 +1,43 @@
+.main{
+    background-color: rgba(243, 238, 238, 0.825);
+}
+.main .box1:nth-child(even){
+    background-color: white;
+}
+.box1{
+    
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 20px;
+}
+ .box1 h1{
+
+   font-size: 40px;
+   text-align: center;
+    
+}
+.box1 h1::first-letter
+{
+    color: red;
+    font-size: 60px;
+    
+}
+ .p1{
+    background-color:#FFF6BF;
+    padding: 10px;
+    background-color: #FFF6BF;
+    border-left: 4px solid #f66235;
+    padding: 10px;
+    font-style: italic;
+}
+.box1 p{
+    margin: 8px 15px;
+    line-height: 5px;
+    font-size: large;
+}
+.p2{
+    background-color:  #C5E1A5;
+    padding: 10px;
+   border: 7px solid rgb(174, 233, 234)
+}
+

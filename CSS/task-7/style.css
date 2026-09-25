@@ -1,0 +1,363 @@
+body {
+    background-color: rgb(246, 242, 242);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu img {
+    height: 60px;
+    width: 170px;
+}
+
+.nav {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+.icon {
+    font-size: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.btn {
+    font-size: 20px;
+    border: none;
+    background: none;
+    display: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 80px;
+    gap: 10px;
+}
+
+.hero h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+}
+
+.hero p {
+    font-size: 20px;
+    color: grey;
+}
+
+.hero button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.left {
+    width: 70%;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.right img {
+    height: 200px;
+    width: 250px;
+    border-radius: 10px;
+}
+.selers{
+    padding: 70px 80px;
+}
+.selers-content{
+    text-align: center;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.card{
+    height: 290px;
+    width: 250px;
+    background-color: white;
+    border-radius: 5px;
+}
+.card img{
+    height: 170px;
+    width: 230px;
+    margin: 10px;
+    border-radius:5px;
+}
+.card h2{
+    margin: 10px;
+
+}
+.card-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     margin: 1px;
+     padding: 20px;
+}
+.card-content span{
+    color: grey;
+}
+.card-content a{
+    text-decoration: none;
+    color: orange;
+}
+.post{
+    text-align: center;
+    padding: 70px 80px;
+}
+.latest-heading{
+    text-align: center;
+}
+.post-card{
+    width:350px;
+    background:#fff;
+    border-radius:5px;
+}
+
+.post-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+}
+
+.profile{
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.profile img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+}
+
+.profile span{
+    font-size:22px;
+}
+
+.date{
+    font-size:18px;
+    color:gray;
+}
+.post-img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+.post-content{
+ padding:18px;
+}
+
+.post-content h4{
+    text-align:left;
+    margin:0 0 10px;
+}
+
+.post-content p{
+    text-align:left;
+    line-height:28px;
+    color:#777;
+    margin-top:10px;
+}
+.icons{
+    padding: 5px;
+    font-size: 15px;
+}
+.icons a{
+    margin-left: 32%;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+.post-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.comment{
+    text-align: center;
+}
+.comments{
+    text-align: center;
+    padding: 30px 200px;
+}
+.comment-card{
+    width:100%;
+    max-width:320px;
+    background:#fff;
+    padding:15px;
+    border-radius:5px;
+    box-sizing:border-box;
+}
+.comment-card p{
+    color: grey;
+    text-align:left;
+    margin:15px 0;
+    font-size:16px;
+    line-height:26px;
+}
+.stars{
+    color: rgb(236, 98, 6);
+    text-align:left;
+    margin-top:15px;
+}
+.comment-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.footer{
+    background:#444;
+    color:#fff;
+    padding:30px 20px;
+    width: 100%;
+}
+
+.footer-container{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
+.footer-box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer-box h2{
+    font-size: 40px;
+}
+.footer-box span{
+    color: rgb(226, 119, 13);
+}
+.footer-box p{
+    font-size: 20px;
+    line-height: 1.5;
+}
+.footer-box h3{
+    font-size: 30px;
+
+}
+.footer-box a{
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+
+}
+ @media (max-width:992px) {
+    .header {
+        gap: 80px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .btn {
+        display: flex;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .left {
+        width: 100%;
+    }
+
+    .hero h1 {
+        font-size: 20px;
+    }
+    .left p{
+        font-size: 10px;
+    }
+    .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+.post-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.post{
+     padding: 20px;
+}
+ .comments{
+        padding:20px;
+    }
+
+    .comment-container{
+        display:flex;
+        flex-wrap: wrap;
+        align-items:center;
+        gap:20px;
+    }
+
+    .comment-card{
+        width:100%;
+    }
+    .footer-container{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:20px;
+    }
+    .footer{
+         padding:40px 30px;
+    }
+    .footer-box{
+        width:100%;
+    }
+    .footer-box p{
+        width: 70%;
+        line-height: 30px;
+    }
+
+} 

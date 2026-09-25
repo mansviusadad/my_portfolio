@@ -1,0 +1,435 @@
+body {
+    margin: 20px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.main-header {
+    width: 90%;
+    height: 40px;
+    background: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+
+.main-header p {
+    font-size: 14px;
+    color: #555;
+}
+
+.lang {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lang img {
+    width: 20px;
+    height: 15px;
+}
+
+.main-header select {
+    border: none;
+    background: transparent;
+    outline: none;
+    font-size: 14px;
+}
+
+.header {
+    width: 90%;
+    margin: 3px auto;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.logo {
+    height: 100px;
+    width: 200px;
+}
+
+.search {
+    width: 500px;
+    height: 45px;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+.search input {
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 15px;
+}
+
+.search i {
+    color: gray;
+    margin-left: 10px;
+
+}
+
+.location {
+    height: 45px;
+    padding: 0 20px;
+    border: 1px solid #ccc;
+    background: #fff;
+    border-radius: 5px;
+}
+
+.icon {
+    display: flex;
+    gap: 20px;
+    font-size: 22px;
+    margin-left: auto;
+}
+
+.icon i {
+    position: relative;
+}
+
+.icon sup {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    width: 16px;
+    height: 16px;
+    background: green;
+    color: white;
+    border-radius: 50%;
+    font-size: 10px;
+    text-align: center;
+    line-height: 16px;
+}
+
+.menu {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    background: green;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.menu>ul {
+    display: flex;
+    list-style: none;
+    margin-left: 20px;
+}
+
+.menu ul li {
+    position: relative;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    display: block;
+    font-size: 15px;
+}
+
+.sub {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 180px;
+    background: #fff;
+    border: 1px solid #ddd;
+    z-index: 999;
+}
+
+.sub li {
+    display: block;
+}
+
+.menu ul li:hover .sub {
+    display: block;
+}
+
+.main {
+    width: 100%;
+    height: 520px;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.bg-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 60px;
+    transform: translateY(-50%);
+    width: 40%;
+}
+
+.offer-tag {
+    display: inline-block;
+    background: #ffc107;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.content h1 {
+    font-size: 60px;
+    color: #001e2b;
+    line-height: 70px;
+    margin: 25px 0;
+}
+
+.content h1 span {
+    color: #16a34a;
+}
+
+.content p {
+    color: #666;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.shop-btn {
+    margin-top: 25px;
+    padding: 15px 30px;
+    background: #001e2b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.product {
+    display: flex;
+    gap: 10px;
+
+}
+
+.Categories {
+    border: 1px solid black;
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    align-items: center;
+}
+
+.Categories img {
+    width: 70%;
+    margin: 40px;
+    height: 150px;
+}
+
+.Categories p {
+    text-align: center;
+    margin-top: -20px;
+}
+
+.offer-section {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.offer-card {
+    width: 49%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f8f8f8;
+    border-radius: 8px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.offer-text h3 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.offer-text p {
+    margin: 10px 0;
+    color: gray;
+}
+
+.offer-text button {
+    background: #002b45;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.offer-img img {
+    width: 400px;
+    height: auto;
+}
+
+.card {
+    width: calc((100% - 80px) / 5);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+.card h3 {
+    min-height: 40px;
+    line-height: 20px;
+}
+
+.card-container {
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card img {
+    width: 180px;
+    height: 130px;
+    object-fit: contain;
+    display: block;
+    margin: 5px auto;
+}
+
+
+.sale {
+    background-color: rgb(213, 3, 3);
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+    border: none;
+    padding: 5px;
+    width: 40px;
+
+}
+
+.green {
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    margin: 2px;
+    border: none;
+    padding: 5px;
+    width: 40px;
+
+}
+
+.h3 {
+    color: rgb(152, 148, 148);
+}
+
+.new {
+    font-size: 20px;
+    color: black;
+
+}
+
+.old {
+    font-size: 18;
+    color: gray;
+    text-decoration: line-through;
+    font-weight: bolder;
+}
+
+.rat {
+    font-size: 17px;
+    color: gray;
+}
+
+.btn {
+    background-color: rgb(8, 194, 8);
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buy {
+    background-color: rgb(213, 3, 3);
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+
+.footer {
+    margin: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer-content i {
+    font-size: 30px;
+}
+
+.footer-content p {
+    font-size: 15px;
+    color: grey;
+}
+
+.last-container {
+    width: 90%;
+    margin: 30px auto;
+    background-color: rgb(223, 215, 215);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap:20px;
+}
+
+.last-content {
+ padding: 30px;
+}
+
+.category-list {
+    display: flex;
+    gap:10px;
+    margin-top: 20px;
+    color: grey;
+}
+
+.category-list ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0 0;
+}
+.category-list li {
+    margin-bottom: 15px;
+}

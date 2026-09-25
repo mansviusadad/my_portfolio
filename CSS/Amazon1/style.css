@@ -1,0 +1,138 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#000;
+    color:#fff;
+}
+
+header{
+    width:100%;
+    padding:20px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    position:absolute;
+    z-index:100;
+}
+
+.logo img{
+    width:120px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+    gap:30px;
+}
+
+.active{
+    background:#3a3d43;
+    padding:10px 18px;
+    border-radius:10px;
+}
+
+.icons{
+    display:flex;
+    align-items:center;
+    gap:20px;
+}
+
+.icons i{
+    font-size:18px;
+}
+
+.icons select{
+    background:none;
+    border:none;
+    color:#fff;
+    font-size:16px;
+}
+
+.icons button{
+    background:#1f80ff;
+    color:#dcd7d7;
+    border:none;
+    padding:10px 20px;
+    border-radius:8px;
+    
+}
+
+.banner{
+    height:100vh;
+    background:
+    linear-gradient(to right,#000 35%,rgba(0,0,0,.3)),
+    url("bg-img.png") center/cover;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    padding:0 60px;
+}
+
+.content{
+    width:500px;
+     margin-right:800px; 
+}
+
+.prime{
+    width:90px;
+    margin-bottom:20px;
+}
+
+.content h1{
+    font-size:90px;
+    color:#b7181f;
+    margin-bottom:20px;
+}
+
+.content p{
+    color:#0ae671;
+    font-size:25px;
+    margin-bottom:20px;
+}
+
+.content h3{
+    font-size:28px;
+    line-height:40px;
+    font-weight:400;
+}
+
+.btns{
+    display:flex;
+    gap:15px;
+    margin-top:30px;
+}
+
+.watch{
+    background:#3a3d43;
+    color:white;
+    border:none;
+    padding:15px 20px;
+    border-radius:10px;
+    font-weight:bold;
+}
+
+ .btns button:not(.watch){
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    border:none;
+    font-size:22px;
+    background:#3a3d43;
+    color:white;
+} 
+
+.arrow{
+    font-size:35px;
+    
+}
+.h4{
+    padding: 20px;
+}
+.card-section {
+    margin: 60px;
+}

@@ -1,0 +1,21 @@
+.c1{
+    font-size:x-large;
+    align-items: center;
+    text-align: center;
+}
+.c2{
+    color: rgb(36, 108, 108);
+    font-style: italic;
+    text-align: center;
+}
+.c3{
+    text-align: center;
+    text-decoration: underline;
+    font-weight: 800px;
+    font-size: x-large;
+}
+.p1
+{
+    font-size: large;
+    text-align: center;
+}

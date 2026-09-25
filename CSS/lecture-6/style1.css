@@ -1,0 +1,20 @@
+.b1{
+   
+    height:500px;
+    width:500px;
+    background-color: rgb(241, 229, 229);
+    margin: 100px auto;
+    text-align: center;
+    padding: 70px;
+    box-sizing: border-box;
+    
+    
+
+    
+}
+.img{
+    height: 300px;
+    width: 350px;
+    border: 22px solid rgb(43, 127, 244);
+
+}

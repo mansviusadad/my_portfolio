@@ -1,0 +1,129 @@
+body {
+    margin: 2%;
+}
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.sub {
+    height: 50px;
+    width: 250px;
+    border: 1px solid black;
+
+}
+
+.sub h3 {
+    text-align: center;
+}
+
+h2 {
+    padding: 20px;
+}
+
+.btn {
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: none;
+    font-size: larger;
+    margin-left: 95%;
+    margin-bottom: 20px auto;
+
+}
+
+.course {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.img {
+
+    height: 400px;
+    width: 300px;
+    margin: 10px;
+
+}
+
+.img1 {
+    height: 200px;
+    width: 300px;
+}
+
+.img h4 {
+    margin: 10px;
+}
+
+.img p {
+    margin: 10px;
+    color: gray;
+}
+
+.img b {
+    margin: 10px;
+    color: rgb(232, 175, 5);
+}
+
+.img span {
+    color: gray;
+}
+
+.price {
+    margin: 10px;
+}
+
+.price span {
+    color: black;
+    font-size: large;
+    font-weight: bold;
+}
+
+.price .old {
+    font-size: 16px;
+    color: gray;
+    text-decoration: line-through;
+}
+
+.btn {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.btn1 {
+    background-color: #6d28d9;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.btn2 {
+    background-color: #b2ebf2;
+    color: #00695c;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 14px;
+
+}
+
+.btn3 {
+    background-color: #f9d98c;
+    color: #5d3b09;
+    border: none;
+    padding: 3px 30px;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    white-space: nowrap;
+
+}

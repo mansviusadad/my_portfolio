@@ -1,0 +1,186 @@
+.header{
+    background-color: rgb(19, 3, 85);
+    height: 100px;
+    width: 100%;
+    color: white;
+}
+.header ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    
+}
+ .header li a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    align-items: center;
+}
+.img{
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+    display: block;
+}
+ .main{
+    position:relative;
+} 
+.content{
+    color:black ;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.content h1{
+    font-size: 60px;
+}
+.content p{
+    font-size: 25px;
+}
+.h1{
+    text-align: center;
+}
+.h1 p{
+    color: gray;
+}
+.services{
+    width: 90%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+     
+}
+.card{
+   text-align: center;
+    padding: 20px;
+}
+.card h2{
+    margin: 20px 0;
+    font-size: 28px;
+}
+
+.card p{
+    color: gray;
+    line-height: 28px;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    background: linear-gradient(135deg, #ff00cc, #9900ff);
+    border-radius: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+.portfolio{
+    display: flex;
+    gap: 40px;
+}
+.menu{
+    width: 20%;
+    margin-left: 100px;
+}
+.menu li{
+    list-style: none;
+}
+.menu ul li{
+    font-size: 20px;
+    margin: 50px auto;
+    font-weight: bold;
+}
+.gallery{
+    width: 30%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    padding: 10px;
+}
+.gallery img{
+    width: 300px;
+    height: 260px;
+    object-fit: cover;
+}
+.blog{
+     width: 90%;
+    margin: 80px auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+.blog-card img{
+    height: 300px;
+    width: 300px;
+}
+.blog-card{
+    width: 32%;
+}
+
+.blog h5{
+    color:gray;
+    margin-top:15px;
+    font-size:12px;
+    letter-spacing:2px;
+}
+
+.blog h3{
+    margin:10px 0;
+    font-size:28px;
+}
+
+.blog p{
+    color:gray;
+    line-height:28px;
+}
+.blog a{
+    font-size: larger;
+    text-decoration: none;
+    margin-left: 60%;
+}
+.footer{
+    background-color: rgb(217, 211, 211);
+    height: 200px;
+    width: 100%;
+    display: flex;
+}
+.icon1{
+    border-radius: 50%;
+    background-color:rgb(48, 1, 48);
+    color: white;
+    height: 100px;
+    width: 100px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+
+}
+.item{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.text h4{
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    
+
+}
+.text p{
+    margin: 4px 0;
+    color: gray;
+    line-height: 1.5;
+}

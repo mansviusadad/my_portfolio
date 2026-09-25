@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+
+<body>
+    <div class="d-flex justify-content-between">
+        <div>
+            <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling"><i class="fa-solid fa-bars"
+                    style="color: rgb(21, 20, 20);"></i></button>
+
+            <div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1"
+                id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Offcanvas with body scrolling</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <p>Try scrolling the rest of the page to see this option in action.</p>
+                </div>
+            </div>
+        </div>
+        <div>
+            <img src="logo.jpg" style="height: 30px; width: 150px;" alt="">
+        </div>
+        <div>
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Login
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            ...
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary">Save changes</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div style="background:url('./bg-img.avif') center/cover no-repeat; height: 600px; position: relative;">
+            <div class="position-absolute  top-50 start-50 translate-middle w-100 px-3 text-center">
+                <h1 class="text-info">it is the same but the same</h1>
+                <p class="text-secondary  mx-auto">Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit
+                    qui ab,<br>
+                    exercitationem recusandae at ut. Corporis, error nulla nostrum labore eaque doloremque! <br> Eius
+                    vero
+                    dignissimos fugiat? Facilis, sunt.</p>
+                <button type="button" class="btn btn-danger">GET STARTED</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row align-items-center">
+
+            <div class="col-md-4 text-center text-md-end">
+                <h3 class="text-info">Great hall</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae ea quis quisquam consequuntur.
+                </p>
+                <h3 class="text-info mt-5">The very first lesson</h3>
+                <p>
+                    Sad and your course now nothing more than
+                    lorem ipsum dolor sit amet.
+                </p>
+            </div>
+            <div class="col-md-4 text-center my-4 my-md-0">
+                <img src="image.jpg" class="rounded-circle img-fluid"
+                    style="height: 300px; width: 300px; object-fit: cover;" alt="">
+            </div>
+            <div class="col-md-4 text-center text-md-start">
+                <h3 class="text-info">No time</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Beatae ea quis quisquam consequuntur.
+                </p>
+                <h3 class="text-info mt-5">He takes on pain.</h3>
+                <p>
+                    Pellentesque egestas sem. Suspendisse modo
+                    ullamcorper feugiat lorem.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div style="background-color:rgba(237, 79, 22, 0.849); color: white; height: 50vh; position: relative;">
+            <div class="position-absolute top-50 start-50 translate-middle w-100 px-3 text-center">
+                <h3>it is the same but the same</h3>
+                <p class="text-secondary">Lorem ipsum dolor sit amet consectetur adipisicing elit. In suscipit
+                    qui ab,<br>
+                    exercitationem recusandae at ut. Corporis, error nulla nostrum labore eaque doloremque! <br> Eius
+                    vero
+                    dignissimos fugiat? Facilis, sunt.</p>
+                <br>
+                <h4>jane anderson</h4>
+                <p class="text-secondary">LLC,unnamed</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="1.jpg" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title text-info">Result</h5>
+                        <p class="card-text">Placerat ornare. Pellentesque odio sed
+                            euismod in, pharetra rictis ed arcu
+                            consequat.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="2.jpg" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title text-info">I will definitely get it.</h5>
+                        <p class="card-text">Morbi in sem quis dui placerat.
+                            Pellentesque odio nisi, euismod
+                            pharetra lorem ipsum.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="3.jpg" class="card-img-top" alt="image">
+                    <div class="card-body">
+                        <h5 class="card-title text-info"> Malevolent</h5>
+                        <p class="card-text">For my sake, who is the tincture,
+                            who is the porter, who the easy grief
+                            and fear of the great ululate.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-color: rgb(6, 160, 195); color: white;">
+
+        <div class="container py-5">
+
+            <div class="text-center">
+                <h2>Get In Touch</h2>
+            </div>
+
+            <div class="row justify-content-center text-center mt-4">
+
+                <div class="col-md-4 mb-3">
+                    <p><i class="fa-solid fa-phone" style="color: rgb(244, 10, 66);"></i> (000) 000-0000</p>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <p><i class="fa-solid fa-envelope" style="color: rgb(244, 10, 66);"></i> information@untitled.tld
+                    </p>
+                </div>
+
+                <div class="col-md-4 mb-3">
+                    <p><i class="fa-solid fa-location-dot" style="color: rgb(244, 10, 66);"></i> 123 Somewhere Road,
+                        Nashville, TN 00000</p>
+                </div>
+
+            </div>
+
+            <hr>
+
+            <div class="text-center">
+                <p class="mb-0">
+                    Powered by Template | Distributed by ThemeWagon
+                </p>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
