@@ -40,17 +40,10 @@
         border-color: orange;
     }
 
-    form {
-        transition: 0.4s;
-    }
-
-    form:hover {
-        transform: translateY(-8px);
-        box-shadow: 0 0 30px orange;
-    }
+    
 
     .form-control::placeholder {
-        color: #ffffff;
+        color: #797676;
         opacity: 1;
     }
 
@@ -68,7 +61,7 @@
 <body style="background-color: rgba(11, 11, 11, 0.893);">
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid m-3">
-            <a class="navbar-brand  fs-1 fw-bold" href="#" style="color: orange;">Mansvi</a>
+            <a class="navbar-brand  fs-1 fw-bold" href="#" style="color: orange;">MU</a>
             <button class="navbar-toggler" style="background-color: orange;" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -77,31 +70,25 @@
             <div class="collapse navbar-collapse center" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto text-center fs-5 mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link text-white" aria-current="page" href="#">Home</a>
+                        <a class="nav-link text-white" aria-current="page" href="#Home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About</a>
+                        <a class="nav-link text-white" href="#About">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Skills</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Project</a>
+                        <a class="nav-link text-white" href="#Skills">Skills</a>
                     </li>
                 </ul>
-                <form class="text-center mt-2 mt-lg-0" role="search">
-                    <button type="button" class="btn btn-outline-warning">Contact Me</button>
-                </form>
+
+                <a href="#Contact" type="button" class="btn btn-outline-warning rounded-pill text-center px-3"> <i
+                        class="fa-solid fa-circle-user fs-5"></i> Contact</a>
             </div>
         </div>
     </nav>
 
 
 
-    <div class="container-fluid py-5">
+    <div id="Home" class="container-fluid py-5">
         <div class="row align-items-center">
 
             <!-- Left Side -->
@@ -140,6 +127,8 @@
             </div>
 
 
+
+
             <!-- Right Side -->
             <div class="col-12 col-lg-5 py-5 image-side text-center">
 
@@ -152,142 +141,572 @@
 
         </div>
     </div>
-    <!--card-->
-    <div class="container px-2">
-        <h1 class="fw-bold text-center text-white">My <span style="color: orange;">Skill</span></h1>
-        <div class="row g-3 justify-content-center py-4">
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card text-white p-2 rounded-5 w-100" style=" background-color: black;">
-                    <i class="fa-solid fa-code text-center" style="font-size:50px; color: orange;"></i>
-                    <div class="card-body text-center">
-                        <h5 class="card-title fs-2 fw-bold">HTML</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
-                        <a href="./HTML/index.html" class="btn btn-outline-warning rounded-pill">View Project <i
-                                class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
+
+    <!-- About Me Section -->
+    <div id="About" class="py-5" id="about">
+
+        <div class="container">
+
+
+            <div class="text-center mb-5">
+                <h2 class="display-5 fw-bold text-white">
+                    About <span class="text-warning">Me</span>
+                </h2>
+
+                <p class="text-secondary">
+                    Get to know more about me
+                </p>
             </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card text-white p-2 rounded-5 w-100" style=" background-color: black;">
-                    <i class="fa-brands fa-css text-center" style="font-size:50px; color: orange;"></i>
-                    <div class="card-body text-center">
-                        <h5 class="card-title fs-2 fw-bold">CSS</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
-                        <a href="./CSS/index.html" class="btn btn-outline-warning rounded-pill">View Project <i
-                                class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card text-white p-2 rounded-5 w-100" style="background-color: black;">
-                    <i class="fa-brands fa-bootstrap text-center" style="font-size:50px; color: orange;"></i>
-                    <div class="card-body text-center">
-                        <h5 class="card-title fs-2 fw-bold">Bootstrap</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
-                        <a href="./BootStrap/index.html" class="btn btn-outline-warning rounded-pill">View Project <i
-                                class="fa-solid fa-arrow-right-long"></i></a>
-                    </div>
-                </div>
-            </div>
+            <div class="row g-4 align-items-stretch">
 
-            <div class="col-12 col-md-6 col-lg-3">
-                <div class="card text-white p-2 rounded-5 w-100" style="background-color: black;">
-                    <i class="fa-solid fa-c text-center" style="font-size:50px; color: orange;"></i>
-                    <div class="card-body text-center">
-                        <h5 class="card-title fs-2 fw-bold">C Lang</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card’s content.</p>
-                        <a href="https://mansviusadad.github.io/task/" class="btn btn-outline-warning rounded-pill">View
-                            Project <i class="fa-solid fa-arrow-right-long"></i></a>
+
+                <div class="col-12 col-lg-6">
+
+                    <div class="bg-dark border border-warning rounded-4 p-4 h-100">
+
+                        <h3 class="text-white fw-bold mb-4">
+                            About <span class="text-warning">Me</span>
+                        </h3>
+
+                        <p class="text-light">
+                            I am a BCA student and aspiring Web Developer
+                            passionate about creating modern, responsive and
+                            user-friendly websites.
+                        </p>
+
+                        <p class="text-secondary">
+                            I enjoy learning new technologies and improving my
+                            programming skills. I love turning creative ideas
+                            into functional web projects.
+                        </p>
+
+                        <div class="mt-4">
+
+                            <p class="text-light">
+                                <i class="fa-solid fa-user text-warning me-3"></i>
+                                <strong>Name:</strong> Mansvi Usadad
+                            </p>
+
+                            <p class="text-light">
+                                <i class="fa-solid fa-code text-warning me-3"></i>
+                                <strong>Role:</strong> Web Developer
+                            </p>
+
+                            <p class="text-light">
+                                <i class="fa-solid fa-location-dot text-warning me-3"></i>
+                                <strong>Location:</strong> Junagadh, Gujarat
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-6">
+
+                    <div class="bg-dark border border-warning rounded-4 p-4 h-100">
+
+                        <h3 class="text-white fw-bold mb-4">
+                            <i class="fa-solid fa-graduation-cap text-warning me-2"></i>
+                            Education
+                        </h3>
+
+                        <div class="border-start border-warning border-3 ps-4">
+
+                            <h4 class="text-warning fw-bold">
+                                Bachelor of Computer Applications
+                            </h4>
+
+                            <h6 class="text-white">
+                                BCA 3rd Year
+                            </h6>
+
+                            <p class="text-secondary">
+                                Shree V. N. Borad Mahila BCA College
+                                <br>
+                                Junagadh, Gujarat
+                            </p>
+
+                        </div>
+
+                        <div class="border-start border-warning border-3 ps-4">
+
+                            <h4 class="text-warning fw-bold">
+                                Web Development
+                            </h4>
+
+                            <h6 class="text-white">
+                                Technical Skills
+                            </h6>
+
+                            <div class="d-flex flex-wrap gap-2 mt-3">
+
+                                <span class="badge bg-warning text-dark rounded-pill px-3 py-2">
+                                    HTML5
+                                </span>
+
+                                <span class="badge bg-warning text-dark rounded-pill px-3 py-2">
+                                    CSS3
+                                </span>
+
+                                <span class="badge bg-warning text-dark rounded-pill px-3 py-2">
+                                    Bootstrap
+                                </span>
+
+                                <span class="badge bg-warning text-dark rounded-pill px-3 py-2">
+                                    PHP
+                                </span>
+
+                                <span class="badge bg-warning text-dark rounded-pill px-3 py-2">
+                                    MySQL
+                                </span>
+
+                                <span class="badge bg-warning text-dark rounded-pill px-3 py-2">
+                                    C
+                                </span>
+
+                            </div>
+
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container py-5">
-        <div class="row m-0 align-items-stretch g-4">
-            <div class="col-12 col-md-6 p-3 d-flex">
-                <div class=" about-box p-4 text-center rounded-4" style="background:linear-gradient(145deg,#151515,#080808);
-                        border:2px solid orange;box-shadow:0 0 20px rgba(255,165,0,0.3);">
+    <!-- My Skills -->
+    <div class="py-4 container">
+        <div class="d-flex align-items-center justify-content-center gap-3 mb-4">
+            <h2 class="text-white fw-bold m-0 display-5">
+                My <span class="text-warning">Skills</span>
+            </h2>
+        </div>
+        <!-- Cards -->
+        <div id="Skills" class="row row-cols-2 row-cols-md-4 row-cols-lg-7 g-2">
 
-                    <img src="mansvi.png" class="rounded-circle"
-                        style="height: 220px; width: 220px; border: 5px solid orange;" alt="mansvi">
+            <!-- HTML5 -->
+            <div class="col">
+                <div class="border border-warning rounded-4 bg-dark text-center p-3 h-100">
+                    <i class="fa-brands fa-html5 fs-1 text-warning mb-2"></i>
+                    <h6 class="text-white fw-bold mb-1">HTML5</h6>
+                    <small class="text-secondary">Frontend</small>
+                </div>
+            </div>
 
-                    <h1 class="fw-bold mt-3" style="color: orange;">
-                        About Me
-                    </h1>
+            <!-- CSS3 -->
+            <div class="col">
+                <div class="border border-warning rounded-4 bg-dark text-center p-3 h-100">
+                    <i class="fa-brands fa-css3-alt fs-1 text-warning mb-2"></i>
+                    <h6 class="text-white fw-bold mb-1">CSS3</h6>
+                    <small class="text-secondary">Frontend</small>
+                </div>
+            </div>
 
-                    <p class="text-white">
-                        I am a BCA student and Web Developer interested in
-                        creating modern, responsive and user-friendly websites.
-                        I enjoy learning new technologies and improving my skills.
+            <!-- Bootstrap -->
+            <div class="col">
+                <div class="border border-warning rounded-4 bg-dark text-center p-3 h-100">
+                    <i class="fa-brands fa-bootstrap fs-1 text-warning mb-2"></i>
+                    <h6 class="text-white fw-bold mb-1">Bootstrap</h6>
+                    <small class="text-secondary">Frontend</small>
+                </div>
+            </div>
+
+            <!-- C -->
+            <div class="col">
+                <div class="border border-warning rounded-4 bg-dark text-center p-3 h-100">
+                    <i class="fa-solid fa-c fs-1 text-warning mb-2"></i>
+                    <h6 class="text-white fw-bold mb-1">C</h6>
+                    <small class="text-secondary">Programming</small>
+                </div>
+            </div>
+
+            <!-- PHP -->
+            <div class="col">
+                <div class="border border-warning rounded-4 bg-dark text-center p-3 h-100">
+                    <i class="fa-brands fa-php fs-1 text-warning mb-2"></i>
+                    <h6 class="text-white fw-bold mb-1">PHP</h6>
+                    <small class="text-secondary">Programming</small>
+                </div>
+            </div>
+
+            <!-- MySQL -->
+            <div class="col">
+                <div class="border border-warning rounded-4 bg-dark text-center p-3 h-100">
+                    <i class="fa-solid fa-database fs-1 text-warning mb-2"></i>
+                    <h6 class="text-white fw-bold mb-1">MySQL</h6>
+                    <small class="text-secondary">Database</small>
+                </div>
+            </div>
+
+            <!-- Git & GitHub -->
+            <div class="col">
+                <div class="border border-warning rounded-4 bg-dark text-center p-3 h-100">
+
+                    <div class="mb-2">
+                        <i class="fa-brands fa-git-alt fs-2 text-warning me-2"></i>
+                        <i class="fa-brands fa-github fs-2 text-warning"></i>
+                    </div>
+
+                    <h6 class="text-white fw-bold mb-1">
+                        Git & GitHub
+                    </h6>
+
+                    <small class="text-secondary">
+                        Tools
+                    </small>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- My Projects -->
+    <div class="container py-5" id="projects">
+
+
+        <h2 class="text-center text-white mb-4">
+            My <span class="text-warning">Projects</span>
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- Project 1 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-dark text-white border border-warning rounded-4 overflow-hidden h-100">
+
+                    <img src="./image/html.jpg" style="height: 200px;" class="card-img-top rounded-4" alt="HTML">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title fw-bold fs-2">
+                            HTML
+                        </h5>
+
+                        <p class="card-text text-light">
+                            A responsive website designed using HTML
+                            to create a clean, structured and user-friendly
+                            web page layout with essential web elements..
+                        </p>
+
+
+                        <a href="./HTML/index.html" target="_blank" class="btn btn-warning rounded-pill">
+                            Open Work
+                            <i class="fa-solid fa-arrow-right ms-1"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 2 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-dark text-white border border-warning rounded-4 overflow-hidden h-100">
+
+                    <img src="./image/css.jpg" style="height: 200px;" class="card-img-top" alt="CSS">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title fw-bold fs-2">
+                            CSS
+                        </h5>
+                        <p class="card-text text-light">
+                            A modern and attractive web design
+                            created using CSS to style layouts,
+                            colors, animations and responsive elements.
+                        </p>
+                        <a href="./CSS/index.html" target="_blank" class="btn btn-warning rounded-pill">
+                            Open Work
+                            <i class="fa-solid fa-arrow-right ms-1"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 3 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-dark text-white border border-warning rounded-4 overflow-hidden h-100">
+
+                    <img src="./image/bootstrap.jpg" style="height: 200px;" class="card-img-top" alt="Bootstrap">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title fw-bold fs-2">
+                            Bootstrap
+                        </h5>
+
+                        <p class="card-text text-light">
+                            A responsive website designed using Bootstrap
+                            to create modern layouts, responsive components
+                            and a clean user-friendly interface.
+                        </p>
+
+                        <a href="./BootStrap/index.html" target="_blank" class="btn btn-warning rounded-pill">
+                            Open Work
+                            <i class="fa-solid fa-arrow-right ms-1"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Project 4 -->
+            <div class="col-12 col-md-6 col-lg-3">
+                <div class="card bg-dark text-white border border-warning rounded-4 overflow-hidden h-100">
+
+                    <img src="./image/c.jpg" style="height: 200px;" class="card-img-top" alt="C">
+
+                    <div class="card-body">
+
+                        <h5 class="card-title fw-bold fs-2">
+                            C Langauge
+                        </h5>
+
+                        <p class="card-text text-light">
+                            A collection of C programs designed to practice
+                            programming concepts, logical operations,
+                            loops, arrays and basic problem-solving skills.
+                        </p>
+
+                        <a href="https://mansviusadad.github.io/task/" target="_blank" class="btn btn-warning rounded-pill">
+                            Open Work
+                            <i class="fa-solid fa-arrow-right ms-1"></i>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    
+   <div id="Contact" class="min-vh-100 bg-dark text-white py-5">
+
+    <div class="container">
+
+        <!-- Heading -->
+        <div class="text-center mb-5">
+
+            <h1 class="display-5 fw-bold">
+                <span class="text-warning">Contact</span> Me
+            </h1>
+
+            <p class="text-secondary">
+                Feel free to contact me for projects, internships or collaboration.
+            </p>
+
+        </div>
+
+
+        <!-- Main Row -->
+        <div class="row g-4">
+
+
+            <!-- LEFT SIDE -->
+            <div class="col-lg-5">
+
+                <div class="bg-black border border-warning border-2 rounded-4 p-4 h-100">
+
+                    <h2 class="fw-bold mb-3">
+                        Get In <span class="text-warning">Touch</span>
+                    </h2>
+
+                    <p class="text-secondary mb-4">
+                        Feel free to contact me for projects,
+                        internships or collaboration.
                     </p>
 
-                    <!-- About Info -->
-                    <div class="row mt-4 text-white">
 
-                        <div class="col-4">
-                            <i class="fa-solid fa-graduation-cap" style="color:orange; font-size:25px;"></i>
-                            <p class="mt-2 mb-0">BCA Student</p>
-                            <small class="text-secondary">3rd Year</small>
+                    <!-- Name -->
+                    <div class="d-flex align-items-center mb-4">
+
+                        <div class="bg-warning text-dark rounded-circle
+                                    p-3 me-3">
+                            <i class="fa-solid fa-circle-user fs-5"></i>
                         </div>
 
-                        <div class="col-4">
-                            <i class="fa-solid fa-location-dot" style="color:orange; font-size:25px;"></i>
-                            <p class="mt-2 mb-0">Junagadh</p>
-                            <small class="text-secondary">Gujarat</small>
+                        <div>
+                            <small class="text-warning">Name:</small>
+
+                            <div class="fs-6">
+                               Mansvi Usadad
+                            </div>
                         </div>
 
-                        <div class="col-4">
-                            <i class="fa-solid fa-code" style="color:orange; font-size:25px;"></i>
-                            <p class="mt-2 mb-0">Web</p>
-                            <small class="text-secondary">Developer</small>
+                    </div>
+
+
+                    <!-- Email -->
+                    <div class="d-flex align-items-center mb-4">
+
+                        <div class="bg-warning text-dark rounded-circle
+                                    p-3 me-3">
+                            <i class="fa-solid fa-envelope fs-5"></i>
+                        </div>
+
+                        <div>
+                            <small class="text-warning">Email:</small>
+
+                            <div class="fs-6">
+                                 mansviusadad14@gmail.com
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Phone -->
+                    <div class="d-flex align-items-center mb-4">
+
+                        <div class="bg-warning text-dark rounded-circle
+                                    p-3 me-3">
+                            <i class="fa-solid fa-phone-flip fs-5"></i>
+                        </div>
+
+                        <div>
+                            <small class="text-warning">Phone:</small>
+
+                            <div class="fs-6">
+                                +91 90810 82350
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <!-- Location -->
+                    <div class="d-flex align-items-center mb-4">
+
+                        <div class="bg-warning text-dark rounded-circle
+                                    p-3 me-3">
+                          <i class="fa-solid fa-location-dot fs-5"></i>
+                        </div>
+
+                        <div>
+                            <small class="text-warning">Location:</small>
+
+                            <div class="fs-6">
+                              Bamangadh , Gujarat, India
+                            </div>
                         </div>
 
                     </div>
 
                 </div>
+
             </div>
 
-            <div class="col-12 col-md-6 p-3">
-                <form class="rounded-4 p-4" style="background:linear-gradient(145deg,#151515,#080808);
-                        border:2px solid orange;box-shadow:0 0 20px rgba(255,165,0,0.3);">
-                    <div class="mb-3">
-                        <h2 class="fw-bold text-white">
-                            Contact <span style="color:orange;">Me</span>
-                        </h2>
 
-                        <input type="text" class="form-control mb-3 rounded-3 bg-dark text-white border-secondary"
-                            placeholder="Your Name" style="color: white;">
-                        <br>
+            <!-- RIGHT SIDE -->
+            <div class="col-lg-7">
 
-                        <input type="email" class="form-control mb-3 rounded-3 bg-dark text-white border-secondary"
-                            placeholder="Email ID">
-                        <br>
-                        <input type="tel" class="form-control mb-3 rounded-3 bg-dark text-white border-secondary"
-                            placeholder="Phone No">
-                        <br>
-                    </div>
-                    <textarea class="form-control mb-3 rounded-3 bg-dark text-white border-secondary" rows="4"
-                        placeholder="Message"></textarea>
+                <div class="bg-black border border-warning border-2 rounded-4 p-4">
 
-                    <button class="btn rounded-pill px-4 py-2 text-white fs-5" style="background-color:orange">
+                    <h2 class="fw-bold mb-4">
+                        Send Me a <span class="text-warning">Message</span>
+                    </h2>
 
-                        <i class="fa-regular fa-envelope me-2"></i>
-                        Send email
 
-                    </button>
-                </form>
+                    <form>
+
+                        <!-- Name + Email -->
+                        <div class="row">
+
+                            <div class="col-md-6 mb-3">
+
+                                <label class="form-label fw-semibold">
+                                    Name:
+                                </label>
+
+                                <input
+                                    type="text"
+                                    class="form-control bg-dark text-white border-secondary"
+                                    placeholder="Enter your name"
+                                >
+
+                            </div>
+
+
+                            <div class="col-md-6 mb-3">
+
+                                <label class="form-label fw-semibold">
+                                    Email:
+                                </label>
+
+                                <input
+                                    type="email"
+                                    class="form-control bg-dark text-white border-secondary"
+                                    placeholder="Enter your email"
+                                >
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- Phone -->
+                        <div class="mb-3">
+
+                            <label class="form-label fw-semibold">
+                                Phone No:
+                            </label>
+
+                            <input
+                                type="text"
+                                class="form-control bg-dark text-white border-secondary"
+                                placeholder="Enter your phone number"
+                            >
+
+                        </div>
+
+
+                        <!-- Message -->
+                        <div class="mb-4">
+
+                            <label class="form-label fw-semibold">
+                                Your Message:
+                            </label>
+
+                            <textarea
+                                class="form-control bg-dark text-white border-secondary"
+                                rows="5"
+                                placeholder="Write your message..."
+                            ></textarea>
+
+                        </div>
+
+
+                        <!-- Button -->
+                        <div class="text-center">
+
+                            <button
+                                type="submit"
+                                class="btn btn-warning text-dark fw-bold
+                                       rounded-pill px-5 py-2"
+                            >
+                                 <i class="fa-solid fa-message"></i> Send Message
+                            </button>
+
+                        </div>
+
+                    </form>
+
+                </div>
+
             </div>
 
         </div>
+
     </div>
+
+</div>
 </body>
 
 </html>
