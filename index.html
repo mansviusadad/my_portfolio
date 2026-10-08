@@ -69,7 +69,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse center" id="navbarSupportedContent">
-                    <ul class="navbar-nav mx-auto text-center fs-5 mb-2 mb-lg-0">
+                    <ul class="navbar-nav mx-auto text-center fs-5 mb-2 mb-lg-0 gap-3">
                         <li class="nav-item">
                             <a class="nav-link text-white" aria-current="page" href="#Home">Home</a>
                         </li>
@@ -78,6 +78,13 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" href="#Skills">Skills</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#project">Project</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-white" href="#contact">Contact</a>
                         </li>
                     </ul>
 
@@ -367,7 +374,7 @@
     </div>
 
     <!-- My Projects -->
-    <div class="container py-5" id="projects">
+    <div id="project" class="container py-5" id="projects">
 
 
         <h2 class="text-center text-white mb-4">
@@ -664,7 +671,7 @@
 
 
                 <!-- RIGHT SIDE -->
-                <div class="col-lg-7">
+                <div id="contact" class="col-lg-7">
 
                     <div class="bg-black border border-warning border-2 rounded-4 p-4">
 
@@ -673,79 +680,67 @@
                         </h2>
 
 
-                        <form>
 
-                            <!-- Name + Email -->
+                        <form action="https://api.web3forms.com/submit" method="POST">
+
+                            <input type="hidden" name="access_key" value="46bf30e2-1d02-4f2b-825d-861ca6b5c243">
+
+                            <input type="hidden" name="subject" value="New Contact Message">
+
+                            <input type="hidden" name="from_name" value="Portfolio Contact Form">
+
+
                             <div class="row">
 
                                 <div class="col-md-6 mb-3">
+                                    <label class="form-label fw-semibold">Name:</label>
 
-                                    <label class="form-label fw-semibold">
-                                        Name:
-                                    </label>
-
-                                    <input type="text" class="form-control bg-dark text-white border-secondary"
-                                        placeholder="Enter your name">
-
+                                    <input type="text" name="name"
+                                        class="form-control bg-dark text-white border-secondary"
+                                        placeholder="Enter your name" required>
                                 </div>
 
 
                                 <div class="col-md-6 mb-3">
+                                    <label class="form-label fw-semibold">Email:</label>
 
-                                    <label class="form-label fw-semibold">
-                                        Email:
-                                    </label>
-
-                                    <input type="email" class="form-control bg-dark text-white border-secondary"
-                                        placeholder="Enter your email">
-
+                                    <input type="email" name="email"
+                                        class="form-control bg-dark text-white border-secondary"
+                                        placeholder="Enter your email" required>
                                 </div>
 
                             </div>
 
 
-                            <!-- Phone -->
                             <div class="mb-3">
+                                <label class="form-label fw-semibold">Phone No:</label>
 
-                                <label class="form-label fw-semibold">
-                                    Phone No:
-                                </label>
-
-                                <input type="text" class="form-control bg-dark text-white border-secondary"
-                                    placeholder="Enter your phone number">
-
+                                <input type="text" name="phone" class="form-control bg-dark text-white border-secondary"
+                                    placeholder="Enter your phone number" maxlength="10" pattern="[0-9]{10}" required>
                             </div>
 
 
-                            <!-- Message -->
                             <div class="mb-4">
+                                <label class="form-label fw-semibold">Your Message:</label>
 
-                                <label class="form-label fw-semibold">
-                                    Your Message:
-                                </label>
-
-                                <textarea class="form-control bg-dark text-white border-secondary" rows="5"
-                                    placeholder="Write your message..."></textarea>
-
+                                <textarea name="message" class="form-control bg-dark text-white border-secondary"
+                                    rows="5" placeholder="Write your message..." required></textarea>
                             </div>
 
 
-                            <!-- Button -->
                             <div class="text-center">
 
-                                <button type="submit" class="btn btn-warning text-dark fw-bold
-                                       rounded-pill px-5 py-2">
-                                    <a href="mailto:mansviusadad14@gmail.com?subject=Portfolio%20Contact"
-                                        class="btn btn-warning text-dark fw-bold rounded-pill px-5 py-2">
+                                <button type="submit" class="btn btn-warning text-dark fw-bold rounded-pill px-5 py-2">
 
-                                        <i class="fa-solid fa-message"></i> Send Message
+                                    <i class="fa-solid fa-message"></i>
+                                    Send Message
 
-                                    </a>
                                 </button>
 
                             </div>
 
                         </form>
+                        
 
                     </div>
 
